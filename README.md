@@ -1,4 +1,3 @@
-
 <h1 align="center">Securing your code with GitHub</h1>
 
 <h5 align="center"><a href="https://github.com/joshjohanning">@joshjohanning</a> <a href="https://github.com/mickeygousset">@mickeygousset</a>
@@ -102,3 +101,9 @@ This project is licensed under the terms of the MIT open source license. Please 
 ### OWASP Juice Shop
 
 This lab uses and includes sample code from the OWASP Juice Shop project. The Juice Shop is Copyright (c) 2014-2024 Bjoern Kimminich & the OWASP Juice Shop contributors. Please refer to the [LICENSE](./LICENSE) for the full terms.
+
+## ⚠️ Intentional dummy secrets
+
+This repository is a **training workshop**. It intentionally contains **dummy, non-functional secrets** (e.g. `secrets.txt`, `encryptionkeys/premium.key`, `ftp/incident-support.kdbx`, `*.bak`, `encrypt.pyc`) so learners can practice GitHub Advanced Security features such as secret scanning and push protection (see [Lab 5](./_labs/lab5.md)).
+
+Secret-scanning alerts on these files are **expected** in the workshop context. They are registered and explained in [KNOWN-FAKE-SECRETS.md](./KNOWN-FAKE-SECRETS.md). **Do not delete** them (the lab depends on them) and **do not rotate** them (they are not real credentials).
